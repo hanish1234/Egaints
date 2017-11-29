@@ -9,9 +9,10 @@ public class Mobile {
 	public Mobile() {
 	}
 	
-	public Mobile(String make, String model) {
+	public Mobile(String make, String model, Battery battery) {
 		this.make = make;
 		this.model = model;
+		this.battery = battery;
 	}
 	
 	public String getMake() {
